@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className='flex justify-between items-center p-4 bg-silvery'>
         <div className='flex gap-2 items-center'>
-            <Image alt='logo' src={'/greenplate.png'} width={40} height={40} />
+            <Image alt='logo' src={'greenplate.png'} width={40} height={40} />
             <h1 className='font-bold'>GreenPlate</h1>
         </div>
 
