@@ -1,12 +1,19 @@
+import Conclusion from "@/components/Conclusion";
+import Contributors from "@/components/Contributors";
+import Design from "@/components/Design";
+import Functionality from "@/components/Functionality";
+import Introduction from "@/components/Introduction";
+import Ui from "@/components/Ui";
+
 export default function Home() {
   return (
-    <div>
-      <div id="introduction">introduction</div>
-      <div id="design">design</div>
-      <div id="ui">ui</div>
-      <div id="functionality">functionality</div>
-      <div id="conclusion">conclusion</div>
-      <div id="contributors">contributors</div>
+    <div className="flex flex-col">
+      <div className="pt-24" id="introduction"><Introduction /></div>
+      <div className="pt-24" id="design"><Design /></div>
+      <div className="pt-24" id="ui"><Ui /></div>
+      <div className="pt-24" id="functionality"><Functionality /></div>
+      <div className="pt-24" id="conclusion"><Conclusion /></div>
+      <div className="pt-24" id="contributors"><Contributors /></div>
     </div>
   );
 }

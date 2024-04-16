@@ -17,10 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <link rel='icon' href='/greenplate.png' />
+    <link rel='icon' href='/CS2340-project-website/greenplate.png' />
       <body className={inter.className}>
         <Header />
-        {children}
+        <div className="m-auto w-[90%] p-4">
+          {children}
+        </div>
         </body>
     </html>
   );
