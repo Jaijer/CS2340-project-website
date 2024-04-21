@@ -18,11 +18,19 @@ export default function RootLayout({
   return (
     <html lang="en">
     <link rel='icon' href='/CS2340-project-website/greenplate.png' />
-      <body className={inter.className}>
-        <Header />
-        <div className="m-auto w-[90%] p-4">
-          {children}
-        </div>
+      
+
+        <body className={inter.className}>
+            <Header /> 
+            <div className="main">
+                <div className="gradient">  </div>
+            </div>
+
+            <main className="app">
+                <div className="m-auto w-[90%] p-4">
+                  {children}
+                </div>
+            </main>
         </body>
     </html>
   );

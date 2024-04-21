@@ -3,7 +3,7 @@ import React from 'react'
 function Functionality() {
   return (
     <div>
-      <div className='text-xl font-bold text-bluish pb-4'>Functionality</div>
+      <div className='text-xl font-bold blue_gradient pb-2'>Functionality</div>
     </div>
   )
 }

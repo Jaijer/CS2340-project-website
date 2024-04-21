@@ -3,7 +3,7 @@ import React from 'react'
 function Design() {
   return (
     <div>
-      <div className='text-xl font-bold text-bluish pb-4'>Design</div>
+      <div className='text-xl font-bold blue_gradient pb-2'>Design</div>
     </div>
   )
 }
