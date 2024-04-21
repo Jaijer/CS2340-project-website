@@ -9,7 +9,7 @@ function Introduction() {
 
         Effortlessly <span className='blue_gradient'>manage your recipes</span>, <span className='blue_gradient'>keep track of your pantry inventory</span>, and <span className='blue_gradient'>generate shopping lists</span> tailored to your culinary needs—all within a single app. GreenPlate seamlessly integrates these functionalities, streamlining your kitchen experience and empowering you to make environmentally conscious choices every day. <br />
 
-        By reducing food waste and promoting smarter shopping habits, GreenPlate not only enhances your well-being but also contributes to a healthier planet. Join the movement towards sustainable living with GreenPlate—it's time to nourish both yourself and the environment, one plate at a time.
+        By reducing food waste and promoting smarter shopping habits, GreenPlate not only enhances your well-being but also contributes to a healthier planet. Join the movement towards sustainable living with GreenPlate—it is time to nourish both yourself and the environment, one plate at a time.
       </p>
     </div>
   )
