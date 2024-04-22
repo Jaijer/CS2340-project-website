@@ -3,7 +3,7 @@ import React from 'react'
 function Conclusion() {
   return (
     <div>
-      <div className='text-xl font-bold blue_gradient pb-2'>Conclusion</div>
+      <div className='text-xl font-bold blue_gradient pb-2'>Conclusion & Reflections</div>
       <p>
         Throughout this project, we started from only a concept to develop a functional application over the course of several months. We had to learn and utilize software that was new to most of us - Android Studio and Firebase to create a meal logging app with tracking functionalities. This required us to collaborate, research and ask for help where needed to ensure the success of the team. 
 

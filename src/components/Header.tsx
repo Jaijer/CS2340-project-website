@@ -3,14 +3,14 @@ import Image from 'next/image';
 
 function Header() {
   return (
-    <div className='flex justify-between items-center p-4 bg-silvery fixed w-full z-20 green_background'>
-        <div className='flex gap-3 items-center'>
+    <div className='sm:flex justify-between items-center p-4 bg-silvery fixed w-full z-20 green_background'>
+        <div className='flex gap-3 items-center justify-center sm:justify-start'>
             {/* We need to add this part 'CS2340-project-website' to the path so it could work with github pages */}
             <Image alt='logo' src={'/CS2340-project-website/greenplate.png'} width={40} height={40} />
             <h1 className='font-bold'>GreenPlate</h1>
         </div>
 
-        <div className='flex gap-3'>
+        <div className='hidden sm:flex gap-3'>
             <a className='hover:scale-110 hover:text-bluish cursor-pointer transition-all' href='#introduction'>
                 Introduction
             </a>
