@@ -3,7 +3,7 @@ import React from 'react'
 function Introduction() {
   return (
     <div>
-      <div className='text-xl font-bold blue_gradient pb-2'>Introduction</div>
+      <div className='text-2xl font-bold blue_gradient pb-2'>Introduction</div>
       <p>
         Introducing <strong>GreenPlate</strong>🌱🍽️, your ultimate companion in the quest for sustainable eating habits. With its user-friendly interface and innovative features, GreenPlate revolutionizes the way you approach food consumption. Say goodbye to wasted ingredients and hello to mindful meal planning. <br /> <br />
 

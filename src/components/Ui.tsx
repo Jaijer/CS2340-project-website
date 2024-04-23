@@ -5,7 +5,7 @@ import Image from 'next/image';
 function Ui() {
   return (
     <div>
-      <div className='text-xl font-bold blue_gradient pb-2'>UI</div>
+      <div className='text-2xl font-bold blue_gradient pb-2'>UI</div>
       <div className='flex flex-col gap-3'>
         <div className="flex gap-4">
           <Image alt="screen" src={'/CS2340-project-website/login_screen.png'} width={250} height={800}></Image>
